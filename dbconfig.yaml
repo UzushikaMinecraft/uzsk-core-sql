@@ -1,5 +1,5 @@
 production:
   dialect: mysql
   datasource: root@/uzsk?parseTime=true
-  dir: migrations
+  dir: db/migrations
   table: uzsk
