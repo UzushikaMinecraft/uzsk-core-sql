@@ -1,4 +1,4 @@
-production:
+development:
   dialect: mysql
   datasource: root@/uzsk?parseTime=true
   dir: db/migrations
