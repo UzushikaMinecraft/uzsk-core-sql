@@ -3,7 +3,7 @@ CREATE TABLE `profile` (
     `uuid` CHAR(36) NOT NULL UNIQUE,
     `initial_login_date` TIMESTAMP NOT NULL,
     `last_login_date` TIMESTAMP,
-    `PlayTime` BIGINT TIMESTAMP 0,
+    `play_time` BIGINT TIMESTAMP 0,
     `experiences` DOUBLE DEFAULT 0.0, 
     `currency` INT DEFAULT 0, 
     `total_build_blocks` INT DEFAULT 0,
