@@ -1,12 +1,12 @@
-CREATE TABLE Profile (
-    ID INT PRIMARY KEY AUTO_INCREMENT,
-    UUID CHAR(36) NOT NULL UNIQUE,
-    InitialLoginDate DATETIME NOT NULL,
-    LastLoginDate DATETIME,
-    PlayTime INT DEFAULT 0,
-    Experiences INT DEFAULT 0, 
-    Currency INT DEFAULT 0, 
-    TotalBuildBlocks INT DEFAULT 0,
-    TotalDestroyBlocks INT DEFAULT 0, 
-    TotalMobKills INT DEFAULT 0
+CREATE TABLE `profile` (
+    `id` INT PRIMARY KEY AUTO_INCREMENT,
+    `uuid` CHAR(36) NOT NULL UNIQUE,
+    `initial_login_date` TIMESTAMP NOT NULL,
+    `last_login_date` TIMESTAMP,
+    `PlayTime` BIGINT TIMESTAMP 0,
+    `experiences` DOUBLE DEFAULT 0.0, 
+    `currency` INT DEFAULT 0, 
+    `total_build_blocks` INT DEFAULT 0,
+    `total_destroy_blocks` INT DEFAULT 0, 
+    `total_mob_kills` INT DEFAULT 0
 );
