@@ -14,5 +14,5 @@ CREATE TABLE `profile` (
 CREATE TABLE `bedrock` (
     `id` INT PRIMARY KEY AUTO_INCREMENT,
     `fuid` CHAR(36) NOT NULL,
-    `xuid` CHAR(36) NOT NULL,
+    `xuid` CHAR(36) NOT NULL
 );
